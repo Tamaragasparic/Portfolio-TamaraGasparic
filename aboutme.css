@@ -2212,6 +2212,10 @@ button:active {
     margin-top: -12px;
   }
 
+  html, body {
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
   .education {
     padding-left: 15px;
   }
