@@ -504,30 +504,6 @@ footer > p {
   font-weight: 500;
 }
 
-.container1 {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-}
-
-.scrolling-text {
-  display: flex;
-  white-space: nowrap; /* Sprječava prelamanje teksta */
-  animation: moveText 40s linear infinite; /* Kontinuirano pomicanje */
-}
-
-.text-quote-4 {
-  padding-right: 70px; /* Razmak između kopija */
-}
-@keyframes moveText {
-  0% {
-    transform: translateX(0); /* Početni položaj */
-  }
-  100% {
-    transform: translateX(-100%); /* Pomicanje za cijeli širinu */
-  }
-}
 
 .image-container {
   display: inline-block;
