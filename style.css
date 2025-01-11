@@ -627,13 +627,13 @@ footer > p {
 
   .WORK .overlap-2 {
     position: relative;
-    width: 647px;
+    width: 100%;
     height: 174px;
   }
 
   .WORK .overlap-group-2 {
     position: absolute;
-    width: 647px;
+    width: 100%;
     height: 174px;
     top: 0;
     left: 0;
