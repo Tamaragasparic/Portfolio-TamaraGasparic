@@ -1,0 +1,2516 @@
+@font-face {
+  font-family: "Exquite";
+  src: url(Exquite.ttf);
+}
+
+@font-face {
+  font-family: "Segoe UI-Regular";
+  src: url(Segoe\ UI.ttf);
+}
+
+@font-face {
+  font-family: "TharLon-Regular";
+  src: url(Tharlon-Regular.ttf);
+}
+
+.anton-regular {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 34px;
+  margin-left: 0;
+  margin-right: auto;
+  height: 50px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.ABOUTME .nav-lijevo {
+  color: #ad343e;
+  font-family: "TharLon-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding-top: 20px;
+}
+.ABOUTME .desno {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 37px;
+  padding-top: 20px;
+}
+
+.ABOUTME .nav-desno {
+  height: 32px;
+  font-family: "TharLon-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ABOUTME.nav-work {
+  width: 66px;
+}
+
+.ABOUTME .nav-aboutme {
+  width: 106px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
+}
+
+.ABOUTME .nav-cv {
+  width: 30px;
+}
+
+.nav-desno a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-desno a:hover {
+  color: #6a8478;
+  font-weight: 600;
+}
+
+.nav-aboutme:hover {
+  color: #6a8478;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nav-desno a:active {
+  color: #60796d;
+  font-weight: 600;
+}
+
+.nav-work:active {
+  color: #60796d;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0%;
+}
+
+.banner-two {
+  display: flex;
+  margin-top: 50px;
+  justify-self: center;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+.text-portfolio-3 {
+  top: -55px;
+  left: -90px;
+  color: #8daa9d;
+  position: relative;
+  width: 687px;
+  font-family: "Anton", Helvetica;
+  font-weight: 400;
+  font-size: 173.7px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.moj-opis {
+  width: 641px;
+  height: 284px;
+  color: #000;
+  text-align: justify;
+  font-family: "Segoe UI-Regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 28px;
+  position: relative;
+  top: -80px;
+  left: -90px;
+}
+.kvadrat {
+  width: 383px;
+  height: 442px;
+  border: 3px solid #ad343e;
+  position: relative;
+  top: -448px;
+  left: 11px;
+  z-index: 0;
+}
+.slikica {
+  z-index: 8;
+  position: relative;
+}
+.email {
+  color: #1f1f1f;
+  text-align: justify;
+  font-family: "Segoe UI-Regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  position: relative;
+  bottom: 60px;
+  right: 89px;
+}
+
+.kvadrat2 {
+  width: 127px;
+  height: 70px;
+  border: 3px solid #8daa9d;
+  position: absolute;
+  top: 94;
+  right: -54px;
+}
+
+.kvadrat3 {
+  width: 119px;
+  height: 169px;
+  border: 3px solid #ad343e;
+  position: absolute;
+  top: 131px;
+  right: -81px;
+}
+
+.kvadrat4 {
+  width: 98px;
+  height: 145px;
+  border: 3px solid #474747;
+  position: absolute;
+  top: 98px;
+  left: -65px;
+}
+
+.kvadrat5 {
+  width: 119px;
+  height: 49px;
+  border: 3px solid #ad343e;
+  position: absolute;
+  top: 220px;
+  left: -100px;
+}
+
+.banner-about {
+  height: 600px;
+}
+.moja-slika {
+  height: 600px;
+}
+
+.education-languages {
+  display: flex;
+  height: 379px;
+  background: #eeeee5;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.education {
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.godine > button {
+  width: 160px;
+  height: 43px;
+  background: #474747;
+  color: #fff;
+
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  border: 0;
+}
+
+.godine > p {
+  color: #000;
+  font-family: "Segoe UI", Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  margin-left: 20px;
+  position: relative;
+  top: -13px;
+}
+
+h3 {
+  color: #ad343e;
+
+  font-family: "Segoe UI";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+.godine {
+  display: flex;
+  margin-top: 15px;
+}
+
+.languages {
+  padding-right: 150px;
+  padding-top: 30px;
+}
+
+.languages > p {
+  color: #000;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+}
+
+.boldaj {
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.technologies {
+  height: 406px;
+  width: 100%;
+}
+
+.technologies h2 {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #474747;
+  color: #ffffff;
+  font-family: Anton;
+  font-size: 128px;
+  font-weight: 400;
+  letter-spacing: 3.84px;
+  display: flex;
+  justify-self: center;
+  margin-top: 50px;
+  margin-left: -600px;
+}
+
+.technologies .img-desktop {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  margin-top: -70px;
+}
+
+.technologies .img-mobile {
+  display: none;
+}
+
+.certificates {
+  height: 1408px;
+  width: 100%;
+  background-color: #eeeee5;
+  display: block;
+  justify-content: center;
+}
+
+.certificates h2 {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #474747;
+  color: #eeeee5;
+  font-family: Anton;
+  font-size: 128px;
+  font-weight: 400;
+  letter-spacing: 3.84px;
+  display: flex;
+  justify-self: center;
+  margin-top: 0px;
+  margin-left: -650px;
+  padding-top: 50px;
+}
+
+.all-certificates {
+  margin-left: 120px;
+  margin-top: -60px;
+}
+
+.jedan-certifikat {
+  line-height: 30px;
+  margin-top: -70px;
+}
+
+.jedan-certifikat h6 {
+  color: #ad343e;
+
+  font-family: "Segoe UI-Regular";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+.jedan-certifikat a {
+  color: #000;
+  font-family: "Segoe UI-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  text-decoration: none;
+  position: relative;
+  top: -40px;
+}
+
+.jedan-certifikat p {
+  color: #000;
+  font-family: "Segoe UI-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  text-decoration: none;
+  position: relative;
+  top: -55px;
+}
+
+.jedan-certifikat h5 {
+  color: #000;
+  font-family: "Segoe UI-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  text-decoration: none;
+  position: relative;
+  top: -32px;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 122px;
+  background-color: #6a8478;
+  color: #fff;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+footer > p {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.email-podebljaj {
+  font-weight: 500;
+}
+
+.casestudy {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -200px;
+}
+
+.casestudy2 {
+  margin-top: -663px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -200px;
+}
+
+.csvideo {
+  border-radius: 7px;
+  display: flex;
+  justify-self: center;
+  position: relative;
+  top: -444px;
+  left: -8px;
+}
+
+.crop {
+  width: 403.67px;
+  height: 342.16px;
+  overflow: hidden;
+  border-radius: 13px;
+  display: flex;
+  justify-self: center;
+  z-index: 20;
+  position: relative;
+  top: 1226px;
+  left: -211.5px;
+}
+
+.crop img {
+  display: flex;
+  justify-self: center;
+  align-items: baseline;
+}
+
+.crop2 {
+  overflow: hidden;
+  width: 403.67px;
+  height: 343px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  z-index: 30;
+  position: relative;
+  left: 214px;
+  top: 884px;
+}
+
+.mobile {
+  display: none;
+}
+
+/*------------------------------------fonts--------------------------------------------*/
+.fonts-container {
+  display: flex;
+  width: 1257px;
+  height: 567px;
+  justify-content: center;
+  justify-self: center;
+  gap: 80px;
+  background: #eeeee5;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.font {
+  width: 482px;
+  height: 449px;
+  background-color: #ffffff;
+}
+
+.font img {
+  position: relative;
+  top: 8.5px;
+  left: 8.5px;
+}
+
+.font h2 {
+  color: #ad343e;
+  font-family: Exquite;
+  font-size: 52.541px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 2.627px;
+  width: 401px;
+  position: relative;
+  left: 21px;
+}
+
+.two h2 {
+  position: relative;
+  top: -25px;
+}
+
+.font button {
+  width: 124.197px;
+  height: 31.049px;
+  background: #474747;
+  color: #fff;
+  font-family: TharLon;
+  font-size: 14.95px;
+  border: 0;
+}
+
+.one button {
+  position: relative;
+  bottom: 61px;
+  left: 330px;
+}
+
+.two button {
+  position: relative;
+  bottom: 117px;
+  left: 330px;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #ad343e;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #651f24;
+  cursor: pointer;
+}
+
+.previous-next {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 250px;
+}
+
+.previous-next-artise {
+  position: relative;
+  top: -100px;
+}
+
+.previous-next-kolegiraj {
+  position: relative;
+  top: 100px;
+}
+
+.previous {
+  position: relative;
+  left: 70px;
+}
+
+.next {
+  position: relative;
+  right: 70px;
+}
+
+.gumb {
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+
+.trokut1 {
+  width: 60px;
+  height: 42px;
+  position: relative;
+  left: 28px;
+}
+
+.trokut2 {
+  width: 60px;
+  height: 42px;
+}
+
+.gumbici {
+  width: 216px;
+  height: 54px;
+  background: #474747;
+  color: #fff;
+  text-align: center;
+  font-family: TharLon;
+  font-size: 26px;
+  border: 0;
+  transition: 0.2s;
+}
+
+.gumbici:hover {
+  background-color: #6a8478;
+}
+
+.gumbici:active {
+  background-color: #60796d;
+}
+
+.nav-desno-mobile {
+  display: none;
+}
+
+.desktop {
+  width: 80%;
+  height: auto;
+}
+
+.desktop3 {
+  width: 80%;
+  height: auto;
+}
+
+@media only screen and (max-width: 450px) {
+  .desktop3 {
+    width: 100%;
+    height: auto;
+  }
+  .ABOUTME .nav-desno {
+    display: none;
+  }
+
+  .ABOUTME .nav-lijevo {
+    font-size: 17.8px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 34px;
+    margin-left: -10px;
+    margin-right: auto;
+    gap: 40px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 30px;
+  }
+
+  .nav-desno-mobile {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 35px;
+    z-index: 50;
+  }
+
+  .kvadrat9 {
+    display: none;
+  }
+
+  .text-portfolio-3 {
+    font-size: 55.32px;
+    top: 50px;
+    left: 15px;
+    position: absolute;
+  }
+
+  .slikica {
+    height: 244.374px;
+  }
+
+  .moja-slika {
+    justify-self: center;
+    margin-top: -865px;
+  }
+
+  .kvadrat {
+    width: 203.935px;
+    height: 235.374px;
+    border: 1.622px solid #ad343e;
+    position: relative;
+    top: -240px;
+    left: 6px;
+  }
+
+  .banner-two {
+    margin-left: 0px;
+    display: block;
+  }
+
+  .moj-opis {
+    width: 272.253px;
+    font-size: 11.353px;
+    line-height: 16.218px;
+    position: unset;
+    display: flex;
+    justify-self: center;
+    margin-top: 350px;
+  }
+
+  .email {
+    font-size: 12.975px;
+    left: 0px;
+    top: -52px;
+  }
+
+  .education-languages {
+    height: 381.661px;
+    display: block;
+    margin-top: -30px;
+  }
+
+  h3 {
+    font-size: 25.661px;
+    margin-top: -12px;
+  }
+
+  .education {
+    padding-left: 15px;
+  }
+
+  .godine button {
+    width: 109.924px;
+    height: 29.542px;
+    background: #474747;
+    font-size: 13.569px;
+    text-wrap: nowrap;
+  }
+
+  .godine p {
+    font-size: 10.987px;
+  }
+
+  .languages {
+    width: 100%;
+    margin-left: 15px;
+  }
+
+  .languages p {
+    font-size: 11.988px;
+    line-height: 20.273px;
+  }
+
+  .technologies {
+    height: 200px;
+    width: 100%;
+  }
+
+  .technologies h2 {
+    -webkit-text-stroke-width: 0.857px;
+    -webkit-text-stroke-color: #474747;
+    color: #ffffff;
+    font-family: Anton, Helvetica;
+    font-size: 36.576px;
+    font-weight: 400;
+    letter-spacing: 1.097px;
+    margin-left: -65px;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .technologies .img-mobile {
+    display: flex;
+    justify-self: center;
+    margin-top: -20px;
+  }
+
+  .technologies .img-desktop {
+    display: none;
+  }
+
+  .certificates {
+    width: 100%;
+    height: 700px;
+  }
+
+  .certificates h2 {
+    -webkit-text-stroke-width: 0.857px;
+    -webkit-text-stroke-color: #474747;
+    color: #eeeee5;
+    font-family: Anton, Helvetica;
+    font-size: 36.576px;
+    font-weight: 400;
+    letter-spacing: 1.097px;
+    margin-left: -75px;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .all-certificates {
+    margin-left: 15px;
+    margin-top: 20px;
+    padding-top: 30px;
+  }
+
+  .jedan-certifikat {
+    line-height: 30px;
+    margin-top: -80px;
+  }
+
+  .jedan-certifikat h6 {
+    color: #ad343e;
+
+    font-family: "Segoe UI-Regular";
+    font-size: 10.95px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+  }
+
+  .jedan-certifikat a {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 9.95px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -40px;
+  }
+
+  .jedan-certifikat p {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 10.95px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -63px;
+  }
+
+  .jedan-certifikat h5 {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 10.95px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -32px;
+  }
+
+  footer {
+    width: 100%;
+    display: block;
+    height: 100.145px;
+    background-color: #6a8478;
+    color: #fff;
+    font-family: "Segoe UI";
+    font-size: 13.699px;
+    font-weight: 300;
+    margin-bottom: 0px;
+  }
+
+  footer > p {
+    margin: 0;
+    padding-left: 15px;
+  }
+
+  .email-podebljaj {
+    font-weight: 500;
+  }
+
+  .nav-overlay {
+    display: block;
+    width: 160px;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: #eeeee5;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.35);
+    z-index: 30;
+  }
+
+  .nav-mob {
+    padding: 10px;
+  }
+
+  .nav-mob-sve {
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+
+  .nav-mob a {
+    color: #000;
+    font-family: TharLon;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .casestudy img {
+    width: 100%;
+  }
+
+  .previous {
+    position: relative;
+    left: 10px;
+  }
+
+  .next {
+    position: relative;
+    right: 10px;
+  }
+
+  .gumb {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+  }
+
+  .trokut1 {
+    display: none;
+  }
+
+  .trokut2 {
+    display: none;
+  }
+
+  .gumbici {
+    width: 103.015px;
+    height: 25.754px;
+    background: #474747;
+    color: #fff;
+    text-align: center;
+    font-family: TharLon;
+    font-size: 12.4px;
+    border: 0;
+    transition: 0.2s;
+  }
+
+  .previous-next {
+    margin-top: 0;
+    margin-bottom: -30px;
+  }
+
+  .previous-next-artise {
+    margin-top: 40px;
+  }
+
+  .previous-next-kolegiraj {
+    margin-top: 100px;
+  }
+
+  .casestudy2 img {
+    width: 100%;
+  }
+
+  .crop {
+    opacity: 0;
+  }
+
+  .crop2 {
+    opacity: 0;
+  }
+
+  .csvideo {
+    opacity: 0;
+  }
+
+  .casestudy3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -50px;
+  }
+
+  .fonts-container {
+    display: block;
+    width: 100%;
+    height: 667px;
+    margin: 0;
+    transform: scale(0.7);
+    gap: 10px;
+    position: relative;
+    left: -50px;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: -90px;
+  }
+
+  .font {
+    transform: scale(0.9);
+    background-color: #eeeee5;
+  }
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .kvadrat9 {
+    display: none;
+  }
+
+  .text-portfolio-3 {
+    font-size: 123.53px;
+    top: -60px;
+    left: 80px;
+  }
+
+  .moj-opis {
+    width: 455.822px;
+    font-size: 12.8px;
+    line-height: 19.911px;
+    position: relative;
+    top: -80px;
+    left: 80px;
+  }
+  .moja-slika {
+    transform: scale(0.8);
+    position: relative;
+    top: -76px;
+    left: -90px;
+  }
+  .email {
+    font-size: 12.8px;
+    font-style: normal;
+    bottom: 60px;
+    left: 80px;
+    top: -150px;
+  }
+
+  .nav {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .ABOUTME .nav-desno {
+    font-size: 17px;
+  }
+
+  .ABOUTME .nav-lijevo {
+    font-size: 17px;
+  }
+
+  .education-languages {
+    display: flex;
+    height: 290px;
+    background: #eeeee5;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: -190px;
+  }
+
+  .education {
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+
+  .godine > button {
+    width: 115.778px;
+    height: 30.578px;
+    background: #474747;
+    color: #fff;
+
+    font-family: "Segoe UI";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    border: 0;
+  }
+
+  .godine > p {
+    color: #000;
+    font-family: "Segoe UI", Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+  }
+
+  h3 {
+    color: #ad343e;
+
+    font-family: "Segoe UI";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+  }
+
+  .godine {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .languages {
+    padding-right: 50px;
+    padding-top: 10px;
+  }
+
+  .languages > p {
+    color: #000;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+  }
+
+  .technologies {
+    height: 306px;
+    width: 100%;
+  }
+
+  .technologies h2 {
+    -webkit-text-stroke-width: 2.133333444595337px;
+    -webkit-text-stroke-color: #474747;
+    color: #ffffff;
+    font-family: Anton;
+    font-size: 91px;
+    font-weight: 400;
+    letter-spacing: 2.73px;
+    display: flex;
+    justify-self: center;
+    margin-top: 40px;
+    margin-left: -380px;
+  }
+
+  .technologies .img-desktop {
+    transform: scale(0.7);
+    margin-top: -70px;
+  }
+
+  .certificates {
+    height: 1208px;
+    width: 100%;
+    background-color: #eeeee5;
+    display: block;
+    justify-content: center;
+  }
+
+  .certificates h2 {
+    -webkit-text-stroke-width: 2.13px;
+    font-size: 91px;
+    font-weight: 400;
+    letter-spacing: 2.73px;
+    display: flex;
+    justify-self: center;
+    margin-top: 0px;
+    margin-left: -400px;
+    padding-top: 40px;
+  }
+
+  .all-certificates {
+    margin-left: 73px;
+    margin-top: -40px;
+  }
+
+  .jedan-certifikat {
+    line-height: 30px;
+    margin-top: -60px;
+  }
+
+  .all-certificates {
+    margin-left: 75px;
+    margin-top: -40px;
+  }
+
+  .jedan-certifikat h6 {
+    color: #ad343e;
+
+    font-family: "Segoe UI-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+  }
+
+  .jedan-certifikat a {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -40px;
+  }
+
+  .jedan-certifikat p {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -55px;
+  }
+
+  .jedan-certifikat h5 {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -32px;
+  }
+
+  .fonts-container {
+    transform: scale(0.9);
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+  .fonts-container {
+    transform: scale(0.8);
+  }
+  .kvadrat9 {
+    display: none;
+  }
+
+  .text-portfolio-3 {
+    font-size: 108.5px;
+    top: -60px;
+    left: 140px;
+  }
+
+  .moj-opis {
+    width: 400.625px;
+    font-size: 11.25px;
+    line-height: 19.911px;
+    position: relative;
+    top: -80px;
+    left: 140px;
+  }
+  .moja-slika {
+    transform: scale(0.68);
+    position: relative;
+    top: -117px;
+    left: -120px;
+  }
+  .email {
+    font-size: 12.8px;
+    font-style: normal;
+    bottom: 60px;
+    left: 140px;
+    top: -160px;
+  }
+
+  .nav {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .ABOUTME .nav-desno {
+    font-size: 17px;
+  }
+
+  .ABOUTME .nav-lijevo {
+    font-size: 17px;
+  }
+
+  .education-languages {
+    display: flex;
+    height: 270px;
+    background: #eeeee5;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: -190px;
+  }
+
+  .education {
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+
+  .godine > button {
+    width: 100px;
+    height: 26.875px;
+    background: #474747;
+    color: #fff;
+
+    font-family: "Segoe UI";
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    border: 0;
+  }
+
+  .godine > p {
+    color: #000;
+    font-family: "Segoe UI", Arial;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+  }
+
+  h3 {
+    color: #ad343e;
+
+    font-family: "Segoe UI";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+  }
+
+  .godine {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .languages {
+    padding-right: 50px;
+    padding-top: 10px;
+  }
+
+  .languages > p {
+    color: #000;
+    font-family: "Segoe UI";
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+  }
+
+  .technologies {
+    height: 260px;
+    width: 100%;
+  }
+
+  .technologies h2 {
+    -webkit-text-stroke-width: 1.87px;
+    -webkit-text-stroke-color: #474747;
+    color: #ffffff;
+    font-family: Anton;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 2.73px;
+    display: flex;
+    justify-self: center;
+    margin-top: 40px;
+    margin-left: -320px;
+  }
+
+  .technologies .img-desktop {
+    transform: scale(0.6);
+    margin-top: -70px;
+  }
+
+  .certificates {
+    height: 1208px;
+    width: 100%;
+    background-color: #eeeee5;
+    display: block;
+    justify-content: center;
+  }
+
+  .certificates h2 {
+    -webkit-text-stroke-width: 1.87px;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 2.73px;
+    display: flex;
+    justify-self: center;
+    margin-top: 0px;
+    margin-left: -350px;
+    padding-top: 40px;
+  }
+
+  .all-certificates {
+    margin-left: 73px;
+    margin-top: -40px;
+  }
+
+  .jedan-certifikat {
+    line-height: 30px;
+    margin-top: -50px;
+  }
+
+  .all-certificates {
+    margin-left: 63px;
+    margin-top: -40px;
+  }
+
+  .jedan-certifikat h6 {
+    color: #ad343e;
+
+    font-family: "Segoe UI-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+  }
+
+  .jedan-certifikat a {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -40px;
+  }
+
+  .jedan-certifikat p {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -55px;
+  }
+
+  .jedan-certifikat h5 {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -32px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .fonts-container {
+    transform: scale(0.7);
+  }
+  .desktop3 {
+    width: 100%;
+    height: auto;
+  }
+  .kvadrat9 {
+    display: none;
+  }
+
+  .text-portfolio-3 {
+    font-size: 108.5px;
+    top: -60px;
+    left: 170px;
+  }
+
+  .moj-opis {
+    width: 400.625px;
+    font-size: 11.25px;
+    line-height: 19.911px;
+    position: relative;
+    top: -80px;
+    left: 170px;
+  }
+  .moja-slika {
+    transform: scale(0.68);
+    position: relative;
+    top: -120px;
+    left: -150px;
+  }
+  .email {
+    font-size: 12.8px;
+    font-style: normal;
+    bottom: 60px;
+    left: 170px;
+    top: -160px;
+  }
+
+  .nav {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .ABOUTME .nav-desno {
+    font-size: 17px;
+  }
+
+  .ABOUTME .nav-lijevo {
+    font-size: 17px;
+  }
+
+  .education-languages {
+    display: flex;
+    height: 270px;
+    background: #eeeee5;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: -190px;
+  }
+
+  .education {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .godine > button {
+    width: 85.333px;
+    height: 22.933px;
+    background: #474747;
+    color: #fff;
+
+    font-family: "Segoe UI";
+    font-size: 10.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    border: 0;
+  }
+
+  .godine > p {
+    color: #000;
+    font-family: "Segoe UI", Arial;
+    font-size: 10.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-left: 20px;
+    position: relative;
+    top: -8px;
+  }
+
+  h3 {
+    color: #ad343e;
+
+    font-family: "Segoe UI";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+  }
+
+  .godine {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .languages {
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  .languages > p {
+    color: #000;
+    font-family: "Segoe UI";
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.6px;
+  }
+
+  .technologies {
+    height: 260px;
+    width: 100%;
+  }
+
+  .technologies h2 {
+    -webkit-text-stroke-width: 1.87px;
+    -webkit-text-stroke-color: #474747;
+    color: #ffffff;
+    font-family: Anton;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 2.73px;
+    display: flex;
+    justify-self: center;
+    margin-top: 40px;
+    margin-left: -240px;
+  }
+
+  .technologies .img-desktop {
+    transform: scale(0.54);
+    margin-top: -70px;
+  }
+
+  .certificates {
+    height: 1308px;
+    width: 100%;
+    background-color: #eeeee5;
+    display: block;
+    justify-content: center;
+  }
+
+  .certificates h2 {
+    -webkit-text-stroke-width: 1.87px;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 2.73px;
+    display: flex;
+    justify-self: center;
+    margin-top: 0px;
+    margin-left: -270px;
+    padding-top: 40px;
+  }
+
+  .all-certificates {
+    margin-left: 73px;
+    margin-top: -40px;
+  }
+
+  .jedan-certifikat {
+    line-height: 30px;
+    margin-top: -50px;
+  }
+
+  .all-certificates {
+    margin-left: 37px;
+    margin-top: -40px;
+  }
+
+  .jedan-certifikat h6 {
+    color: #ad343e;
+
+    font-family: "Segoe UI-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+  }
+
+  .jedan-certifikat a {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -40px;
+  }
+
+  .jedan-certifikat p {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -55px;
+  }
+
+  .jedan-certifikat h5 {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -32px;
+  }
+
+  footer {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0px;
+  }
+
+  footer > p {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .desktop {
+    width: 100%;
+    height: auto;
+  }
+
+  .desktop2 {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (min-width: 570px) and (max-width: 768px) {
+  .desktop3 {
+    width: 100%;
+    height: auto;
+  }
+  .ABOUTME .nav-desno {
+    display: none;
+  }
+
+  .ABOUTME .nav-lijevo {
+    font-size: 17.8px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 34px;
+    margin-left: -10px;
+    margin-right: auto;
+    gap: 40px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 30px;
+  }
+
+  .nav-desno-mobile {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 35px;
+    z-index: 50;
+  }
+
+  .kvadrat9 {
+    display: none;
+  }
+
+  .text-portfolio-3 {
+    font-size: 90px;
+    top: 50px;
+    left: 15px;
+    position: absolute;
+  }
+
+  .slikica {
+    height: 374.374px;
+  }
+
+  .moja-slika {
+    justify-self: center;
+    margin-top: -1005px;
+  }
+
+  .kvadrat {
+    width: 310.935px;
+    height: 359.374px;
+    border: 1.622px solid #ad343e;
+    position: relative;
+    top: -366px;
+    left: 9px;
+  }
+
+  .banner-two {
+    margin-left: 0px;
+    display: block;
+  }
+
+  .moj-opis {
+    width: 440.253px;
+    font-size: 15.353px;
+    line-height: 20.218px;
+    position: unset;
+    display: flex;
+    justify-self: center;
+    margin-top: 540px;
+  }
+
+  .email {
+    font-size: 15.975px;
+    left: 0px;
+    top: -52px;
+  }
+
+  .education-languages {
+    height: 391.661px;
+    display: block;
+    margin-top: 120px;
+  }
+
+  h3 {
+    font-size: 25.661px;
+    margin-top: -12px;
+  }
+
+  .education {
+    padding-left: 15px;
+  }
+
+  .godine button {
+    width: 119.924px;
+    height: 29.542px;
+    background: #474747;
+    font-size: 16.569px;
+    text-wrap: nowrap;
+  }
+
+  .godine p {
+    font-size: 13.987px;
+    line-height: 22px;
+  }
+
+  .languages {
+    width: 100%;
+    margin-left: 15px;
+  }
+
+  .languages p {
+    font-size: 16.988px;
+    line-height: 20.273px;
+  }
+
+  .technologies {
+    height: 320px;
+    width: 100%;
+  }
+
+  .technologies h2 {
+    -webkit-text-stroke-width: 1.6px;
+    -webkit-text-stroke-color: #474747;
+    color: #ffffff;
+    font-family: Anton, Helvetica;
+    font-size: 68px;
+    font-weight: 400;
+    letter-spacing: 1.097px;
+    margin-left: -125px;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .technologies .img-mobile {
+    display: flex;
+    justify-self: center;
+    margin-top: -20px;
+    transform: scale(1.7);
+  }
+
+  .technologies .img-desktop {
+    display: none;
+  }
+
+  .certificates {
+    width: 100%;
+    height: 950px;
+  }
+
+  .certificates h2 {
+    -webkit-text-stroke-width: 1.6px;
+    -webkit-text-stroke-color: #474747;
+    color: #eeeee5;
+    font-family: Anton, Helvetica;
+    font-size: 68px;
+    font-weight: 400;
+    letter-spacing: 1.097px;
+    margin-left: -150px;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .all-certificates {
+    margin-left: 40px;
+    margin-top: -30px;
+    padding-top: 30px;
+  }
+
+  .jedan-certifikat {
+    line-height: 30px;
+    margin-top: -80px;
+  }
+
+  .jedan-certifikat h6 {
+    color: #ad343e;
+
+    font-family: "Segoe UI-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+  }
+
+  .jedan-certifikat a {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -40px;
+  }
+
+  .jedan-certifikat p {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -63px;
+  }
+
+  .jedan-certifikat h5 {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -32px;
+  }
+
+  footer {
+    width: 100%;
+    display: block;
+    height: 100.145px;
+    background-color: #6a8478;
+    color: #fff;
+    font-family: "Segoe UI";
+    font-size: 13.699px;
+    font-weight: 300;
+    margin-bottom: 0px;
+  }
+
+  footer > p {
+    margin: 0;
+    padding-left: 15px;
+  }
+
+  .email-podebljaj {
+    font-weight: 500;
+  }
+
+  .nav-overlay {
+    display: block;
+    width: 160px;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: #eeeee5;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.35);
+    z-index: 30;
+  }
+
+  .nav-mob {
+    padding: 10px;
+  }
+
+  .nav-mob-sve {
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+
+  .nav-mob a {
+    color: #000;
+    font-family: TharLon;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .casestudy img {
+    width: 100%;
+  }
+
+  .previous {
+    position: relative;
+    left: 10px;
+  }
+
+  .next {
+    position: relative;
+    right: 10px;
+  }
+
+  .gumb {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+  }
+
+  .trokut1 {
+    display: none;
+  }
+
+  .trokut2 {
+    display: none;
+  }
+
+  .gumbici {
+    width: 103.015px;
+    height: 25.754px;
+    background: #474747;
+    color: #fff;
+    text-align: center;
+    font-family: TharLon;
+    font-size: 12.4px;
+    border: 0;
+    transition: 0.2s;
+  }
+
+  .previous-next {
+    margin-top: 0;
+    margin-bottom: -30px;
+  }
+
+  .previous-next-artise {
+    margin-top: 40px;
+  }
+
+  .previous-next-kolegiraj {
+    margin-top: 100px;
+  }
+
+  .casestudy2 img {
+    width: 100%;
+  }
+
+  .crop {
+    opacity: 0;
+  }
+
+  .crop2 {
+    opacity: 0;
+  }
+
+  .csvideo {
+    opacity: 0;
+  }
+
+  .casestudy3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -50px;
+  }
+
+  .fonts-container {
+    display: block;
+    width: 100%;
+    height: 667px;
+    margin: 0;
+    transform: scale(0.7);
+    gap: 10px;
+    position: relative;
+    left: 80px;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: -90px;
+  }
+
+  .font {
+    transform: scale(0.9);
+    background-color: #eeeee5;
+  }
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 450px) and (max-width: 570px) {
+  .desktop3 {
+    width: 100%;
+    height: auto;
+  }
+  .ABOUTME .nav-desno {
+    display: none;
+  }
+
+  .ABOUTME .nav-lijevo {
+    font-size: 17.8px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 34px;
+    margin-left: -10px;
+    margin-right: auto;
+    gap: 40px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 30px;
+  }
+
+  .nav-desno-mobile {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 35px;
+    z-index: 50;
+  }
+
+  .kvadrat9 {
+    display: none;
+  }
+
+  .text-portfolio-3 {
+    font-size: 90px;
+    top: 50px;
+    left: 15px;
+    position: absolute;
+  }
+
+  .slikica {
+    height: 374.374px;
+  }
+
+  .moja-slika {
+    justify-self: center;
+    margin-top: -1005px;
+  }
+
+  .kvadrat {
+    width: 310.935px;
+    height: 359.374px;
+    border: 1.622px solid #ad343e;
+    position: relative;
+    top: -366px;
+    left: 9px;
+  }
+
+  .banner-two {
+    margin-left: 0px;
+    display: block;
+  }
+
+  .moj-opis {
+    width: 400.253px;
+    font-size: 15.353px;
+    line-height: 20.218px;
+    position: unset;
+    display: flex;
+    justify-self: center;
+    margin-top: 540px;
+  }
+
+  .email {
+    font-size: 15.975px;
+    left: 0px;
+    top: -12px;
+  }
+
+  .education-languages {
+    height: 420.661px;
+    display: block;
+    margin-top: 150px;
+  }
+
+  h3 {
+    font-size: 25.661px;
+    margin-top: -12px;
+  }
+
+  .education {
+    padding-left: 15px;
+  }
+
+  .godine button {
+    width: 119.924px;
+    height: 29.542px;
+    background: #474747;
+    font-size: 16.569px;
+    text-wrap: nowrap;
+  }
+
+  .godine p {
+    font-size: 13.987px;
+    line-height: 22px;
+  }
+
+  .languages {
+    width: 100%;
+    margin-left: 15px;
+  }
+
+  .languages p {
+    font-size: 16.988px;
+    line-height: 20.273px;
+  }
+
+  .technologies {
+    height: 320px;
+    width: 100%;
+  }
+
+  .technologies h2 {
+    -webkit-text-stroke-width: 1.6px;
+    -webkit-text-stroke-color: #474747;
+    color: #ffffff;
+    font-family: Anton, Helvetica;
+    font-size: 68px;
+    font-weight: 400;
+    letter-spacing: 1.097px;
+    margin-left: -0px;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .technologies .img-mobile {
+    display: flex;
+    justify-self: center;
+    margin-top: -20px;
+    transform: scale(1.4);
+  }
+
+  .technologies .img-desktop {
+    display: none;
+  }
+
+  .certificates {
+    width: 100%;
+    height: 950px;
+  }
+
+  .certificates h2 {
+    -webkit-text-stroke-width: 1.6px;
+    -webkit-text-stroke-color: #474747;
+    color: #eeeee5;
+    font-family: Anton, Helvetica;
+    font-size: 68px;
+    font-weight: 400;
+    letter-spacing: 1.097px;
+    margin-left: 0px;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .all-certificates {
+    margin-left: 40px;
+    margin-top: -30px;
+    padding-top: 30px;
+  }
+
+  .jedan-certifikat {
+    line-height: 30px;
+    margin-top: -80px;
+  }
+
+  .jedan-certifikat h6 {
+    color: #ad343e;
+
+    font-family: "Segoe UI-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+  }
+
+  .jedan-certifikat a {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -40px;
+  }
+
+  .jedan-certifikat p {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -63px;
+  }
+
+  .jedan-certifikat h5 {
+    color: #000;
+    font-family: "Segoe UI-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    position: relative;
+    top: -32px;
+  }
+
+  footer {
+    width: 100%;
+    display: block;
+    height: 100.145px;
+    background-color: #6a8478;
+    color: #fff;
+    font-family: "Segoe UI";
+    font-size: 13.699px;
+    font-weight: 300;
+    margin-bottom: 0px;
+  }
+
+  footer > p {
+    margin: 0;
+    padding-left: 15px;
+  }
+
+  .email-podebljaj {
+    font-weight: 500;
+  }
+
+  .nav-overlay {
+    display: block;
+    width: 160px;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: #eeeee5;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.35);
+    z-index: 30;
+  }
+
+  .nav-mob {
+    padding: 10px;
+  }
+
+  .nav-mob-sve {
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+
+  .nav-mob a {
+    color: #000;
+    font-family: TharLon;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .casestudy img {
+    width: 100%;
+  }
+
+  .previous {
+    position: relative;
+    left: 10px;
+  }
+
+  .next {
+    position: relative;
+    right: 10px;
+  }
+
+  .gumb {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+  }
+
+  .trokut1 {
+    display: none;
+  }
+
+  .trokut2 {
+    display: none;
+  }
+
+  .gumbici {
+    width: 103.015px;
+    height: 25.754px;
+    background: #474747;
+    color: #fff;
+    text-align: center;
+    font-family: TharLon;
+    font-size: 12.4px;
+    border: 0;
+    transition: 0.2s;
+  }
+
+  .previous-next {
+    margin-top: 0;
+    margin-bottom: -30px;
+  }
+
+  .previous-next-artise {
+    margin-top: 40px;
+  }
+
+  .previous-next-kolegiraj {
+    margin-top: 100px;
+  }
+
+  .casestudy2 img {
+    width: 100%;
+  }
+
+  .crop {
+    opacity: 0;
+  }
+
+  .crop2 {
+    opacity: 0;
+  }
+
+  .csvideo {
+    opacity: 0;
+  }
+
+  .casestudy3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -50px;
+  }
+
+  .fonts-container {
+    display: block;
+    width: 100%;
+    height: 667px;
+    margin: 0;
+    transform: scale(0.7);
+    gap: 10px;
+    position: relative;
+    left: -10px;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: -90px;
+  }
+
+  .font {
+    transform: scale(0.9);
+    background-color: #eeeee5;
+  }
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 450px) {
+  .fonts-container {
+    left: -25px;
+  }
+}
+
+.casestudy7 img {
+  margin-bottom: 600px;
+}
+
+.hidden {
+  display: none;
+}
+.desktop3 {
+  width: 80%;
+}

@@ -1,0 +1,1654 @@
+@font-face {
+  font-family: "Exquite";
+  src: url(Exquite.ttf);
+}
+
+@font-face {
+  font-family: "Segoe UI-Regular";
+  src: url(Segoe\ UI.ttf);
+}
+
+@font-face {
+  font-family: "TharLon-Regular";
+  src: url(Tharlon-Regular.ttf);
+}
+
+.anton-regular {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.WORK {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.WORK .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.WORK .banner {
+  position: absolute;
+  width: 1659px;
+  height: 598px;
+  top: 55px;
+}
+
+.WORK .banner-group {
+  position: relative;
+  width: 1576px;
+  height: 598px;
+  top: 0;
+  left: 83px;
+}
+
+.WORK .text-portfolio-1 {
+  top: 182px;
+  left: 167px;
+  color: #eeeee5;
+  position: absolute;
+  width: 687px;
+  font-family: "Anton", Helvetica;
+  font-weight: 400;
+  font-size: 173.7px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.WORK .text-portfolio-2 {
+  top: 364px;
+  left: 320px;
+  color: #f7f7f2;
+  position: absolute;
+  width: 687px;
+  font-family: "Anton", Helvetica;
+  font-weight: 400;
+  font-size: 173.7px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.WORK .text-portfolio-3 {
+  top: 0;
+  left: 69px;
+  color: #8daa9d;
+  position: absolute;
+  width: 687px;
+  font-family: "Anton", Helvetica;
+  font-weight: 400;
+  font-size: 173.7px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.WORK .text-quote-4 {
+  position: relative;
+  top: 454px;
+  left: 0;
+  font-family: "Exquite", Helvetica;
+  font-weight: 400;
+  color: #ad343e;
+  font-size: 88.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.WORK .group {
+  position: absolute;
+  width: 655px;
+  height: 174px;
+  top: 232px;
+  left: 177px;
+  transform: rotate(-11.97deg);
+}
+
+.WORK .overlap-2 {
+  position: relative;
+  width: 647px;
+  height: 174px;
+}
+
+.WORK .overlap-group-2 {
+  position: absolute;
+  width: 647px;
+  height: 174px;
+  top: 0;
+  left: 0;
+}
+
+.WORK .rectangle {
+  position: absolute;
+  width: 653px;
+  height: 39px;
+  top: 67px;
+  left: -3px;
+  background-color: #474747;
+  transform: rotate(11.98deg);
+}
+
+.WORK .text-wrapper-5 {
+  width: 179px;
+  top: 79px;
+  left: 261px;
+  transform: rotate(11.87deg);
+  font-family: "TharLon-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: normal;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.WORK .text-wrapper-6 {
+  position: absolute;
+  width: 179px;
+  top: 32px;
+  left: 38px;
+  transform: rotate(12.03deg);
+  font-family: "TharLon-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.WORK .text-wrapper-7 {
+  width: 179px;
+  top: 121px;
+  left: 461px;
+  transform: rotate(11.92deg);
+  font-family: "TharLon-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: normal;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.WORK .opis {
+  position: relative;
+  width: 448px;
+  justify-self: center;
+  top: -470px;
+  left: 380px;
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-right: 0;
+}
+
+.WORK .span {
+  color: #8daa9d;
+}
+
+.WORK .text-wrapper-8 {
+  color: #000000;
+}
+
+.WORK .text-wrapper-9 {
+  color: #ad343e;
+}
+
+.WORK .overlap-3 {
+  position: absolute;
+  width: 154px;
+  height: 204px;
+  top: 24px;
+  left: 1432px;
+}
+
+.WORK .rectangle-2 {
+  position: absolute;
+  width: 119px;
+  height: 169px;
+  top: 35px;
+  left: 83px;
+  border: 3px solid;
+  border-color: #ad343e;
+}
+
+.WORK .rectangle-3 {
+  position: absolute;
+  width: 127px;
+  height: 70px;
+  top: 0;
+  left: 40;
+  border: 3px solid;
+  border-color: #8daa9d;
+}
+
+.WORK .rectangle-4 {
+  position: absolute;
+  width: 98px;
+  height: 150px;
+  top: 56px;
+  left: 0;
+  border: 3px solid;
+  border-color: #474747;
+}
+
+.WORK .overlap-4 {
+  position: absolute;
+  width: 143px;
+  height: 121px;
+  top: 267px;
+  left: 37px;
+}
+
+.WORK .rectangle-5 {
+  position: absolute;
+  width: 92px;
+  height: 74px;
+  top: 0;
+  left: 0;
+  border: 3px solid;
+  border-color: #8daa9d;
+}
+
+.WORK .rectangle-6 {
+  position: absolute;
+  width: 92px;
+  height: 74px;
+  top: 47px;
+  left: 51px;
+  border: 3px solid;
+  border-color: #e0e0ce;
+}
+
+.WORK .nav {
+  display: flex;
+  justify-content: space-between;
+  height: 34px;
+  margin-left: 0;
+  margin-right: auto;
+  width: 100%;
+  height: 50px;
+  padding-right: 90px;
+  padding-left: 90px;
+}
+
+.WORK .nav-lijevo {
+  color: #ad343e;
+  font-family: "TharLon-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding-top: 20px;
+}
+.WORK .desno {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 37px;
+  margin-left: 0;
+  padding-top: 20px;
+}
+
+.WORK .nav-desno {
+  height: 32px;
+  font-family: "TharLon-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.nav-desno a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-desno a:hover {
+  color: #6a8478;
+  font-weight: 600;
+}
+
+.nav-desno a:active {
+  color: #60796d;
+  font-weight: 600;
+}
+
+.nav-work:active {
+  color: #60796d;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-work:hover {
+  color: #6a8478;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.WORK .nav-work {
+  width: 66px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
+}
+
+.WORK .nav-aboutme {
+  width: 106px;
+}
+
+.WORK .nav-cv {
+  width: 30px;
+}
+body {
+  overflow-x: hidden;
+  margin: 0%;
+}
+/*-------------------------------------PROJECTS------------------------------------------------------*/
+.projects {
+  width: 100%;
+  background-color: #eeeee5;
+  margin: 0;
+  margin-top: 630px;
+  height: 4800px;
+}
+
+.flex-projects {
+  display: block;
+  justify-content: center;
+  width: 80%;
+  justify-self: center;
+}
+
+.projects h2 {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #474747;
+  color: #eeeee5;
+  font-family: Anton, Helvetica;
+  font-size: 128px;
+  font-weight: 400;
+  letter-spacing: 3.84px;
+  position: relative;
+  left: 62px;
+  top: 40px;
+  margin-bottom: 70px;
+}
+
+.project {
+  width: 1089.269px;
+  height: 363.94px;
+  background-color: #ffffff;
+  justify-self: center;
+  display: flex;
+  margin-top: 80px;
+}
+
+.one img {
+  margin-top: 6.8px;
+  margin-left: 6.8px;
+}
+
+.naziv-projekta {
+  color: #ad343e;
+  font-family: Exquite, Helvetica, sans-serif;
+  font-size: 70.532px;
+  font-weight: 400;
+  letter-spacing: 3.527px;
+  margin-left: 30px;
+  margin-top: 23px;
+}
+
+.vrsta-projekta {
+  color: #8daa9d;
+  font-family: Helvetica;
+  font-size: 17.007px;
+  font-weight: 700;
+  margin-left: 30px;
+  position: relative;
+  top: -61px;
+}
+
+.kratak-opis {
+  width: 449.823px;
+  height: 117.345px;
+
+  color: #0e0e0e;
+
+  font-family: Helvetica;
+  font-size: 22.109px;
+  font-weight: 400;
+  line-height: 39.22px;
+  position: relative;
+  margin: 0;
+  margin-left: 30px;
+  top: -85px;
+}
+
+.projects button {
+  width: 142.855px;
+  height: 35.714px;
+  background-color: #474747;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-family: TharLon;
+  font-size: 17.196px;
+  font-weight: 400;
+  border: 0;
+  position: relative;
+  left: 336px;
+  top: -60px;
+  transition: 0.2s;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.projects button:hover {
+  background-color: #ad343e;
+  cursor: pointer;
+}
+
+.projects button:active {
+  background-color: #651f24;
+  cursor: pointer;
+}
+
+.two {
+  margin-top: 80px;
+}
+
+.two img {
+  margin-top: 5.8px;
+}
+
+.smanji {
+  font-size: 62px;
+  margin-bottom: 75px;
+}
+/*-----------------------------------------FOOTER-------------------------------------------------------*/
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 122px;
+  background-color: #6a8478;
+  color: #fff;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+footer > p {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.email-podebljaj {
+  font-weight: 500;
+}
+
+.container1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.scrolling-text {
+  display: flex;
+  white-space: nowrap; /* Sprječava prelamanje teksta */
+  animation: moveText 40s linear infinite; /* Kontinuirano pomicanje */
+}
+
+.text-quote-4 {
+  padding-right: 70px; /* Razmak između kopija */
+}
+@keyframes moveText {
+  0% {
+    transform: translateX(0); /* Početni položaj */
+  }
+  100% {
+    transform: translateX(-100%); /* Pomicanje za cijeli širinu */
+  }
+}
+
+.image-container {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.image-container img {
+  transition: all 0.2s ease;
+  vertical-align: middle;
+}
+
+.image-container img:hover {
+  transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -moz-transform: scale(1.5); /* Firefox */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  cursor: pointer;
+  filter: brightness(85%);
+}
+
+.one .image-container {
+  padding-bottom: 6.5px;
+}
+
+.two .image-container {
+  padding-bottom: 8px;
+  padding-right: 7px;
+  width: 538.257px;
+  position: relative;
+  left: 64px;
+}
+
+.two > img {
+  position: relative;
+  left: -64px;
+}
+
+.nav-desno-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .nav-desno {
+    display: none;
+  }
+
+  .WORK .nav-lijevo {
+    font-size: 17.8px;
+  }
+
+  .WORK .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 34px;
+    margin-left: 0;
+    margin-right: auto;
+    gap: 40px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 30px;
+  }
+
+  .nav-desno-mobile {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 35px;
+    z-index: 40;
+  }
+
+  .WORK .text-portfolio-3 {
+    font-size: 55.32px;
+    top: 0px;
+    left: -65px;
+    position: absolute;
+  }
+
+  .WORK .text-portfolio-2 {
+    font-size: 55.32px;
+    top: 60px;
+    left: -40px;
+    position: absolute;
+    color: #eeeee5;
+  }
+
+  .WORK .text-portfolio-1 {
+    font-size: 55.32px;
+    top: 120px;
+    left: -10px;
+    position: absolute;
+    color: #f7f7f2;
+  }
+
+  .WORK .banner {
+    position: absolute;
+    width: 100%;
+    top: 55px;
+  }
+
+  .WORK .banner-group {
+    position: relative;
+    width: 100%;
+  }
+
+  .overlap-3,
+  .overlap-4,
+  .rectangle-4 {
+    display: none;
+  }
+
+  .WORK .group {
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 60px;
+    left: -90px;
+    transform: rotate(-11.97deg);
+  }
+
+  .WORK .overlap-2 {
+    position: relative;
+    width: 647px;
+    height: 174px;
+  }
+
+  .WORK .overlap-group-2 {
+    position: absolute;
+    width: 647px;
+    height: 174px;
+    top: 0;
+    left: 0;
+  }
+
+  .WORK .rectangle {
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 68.5px;
+    left: -3px;
+    background-color: #474747;
+  }
+
+  .WORK .text-wrapper-5 {
+    width: 179px;
+    top: 51px;
+    left: 127px;
+
+    font-family: "TharLon-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 7.864px;
+    line-height: normal;
+    position: absolute;
+    letter-spacing: 0;
+  }
+
+  .WORK .text-wrapper-6 {
+    position: absolute;
+    width: 179px;
+    top: 32px;
+    left: 38px;
+
+    font-family: "TharLon-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 7.864px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .WORK .text-wrapper-7 {
+    width: 179px;
+    top: 67px;
+    left: 205px;
+    font-family: "TharLon-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 7.864px;
+    line-height: normal;
+    position: absolute;
+    letter-spacing: 0;
+  }
+
+  .WORK .text-quote-4 {
+    position: relative;
+    top: 149px;
+    left: 0;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+
+  .WORK .opis {
+    position: absolute;
+    width: 270px;
+    top: 0px;
+    left: 0px;
+    font-size: 11.393px;
+    line-height: 16.276px;
+  }
+
+  .projects {
+    width: 100%;
+    background-color: #eeeee5;
+    margin: 0;
+    margin-top: 353px;
+    height: 4100px;
+  }
+
+  .projects h2 {
+    -webkit-text-stroke-width: 0.857px;
+    -webkit-text-stroke-color: #474747;
+    color: #eeeee5;
+    font-family: Anton, Helvetica;
+    font-size: 36.576px;
+    font-weight: 400;
+    letter-spacing: 1.097px;
+    position: relative;
+    left: -15px;
+    top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .project {
+    width: 286.455px;
+    height: 358.337px;
+    background-color: #ffffff;
+    justify-self: center;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .one img {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 276.474px;
+    height: 179.948px;
+  }
+
+  .naziv-projekta {
+    font-size: 42.425px;
+    font-style: normal;
+    letter-spacing: 2.121px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+
+  .smanji {
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
+
+  .vrsta-projekta {
+    color: #8daa9d;
+    font-family: Helvetica;
+    font-size: 12.213px;
+    font-weight: 700;
+    margin-left: 10px;
+    position: relative;
+    top: -42px;
+  }
+
+  .kratak-opis {
+    width: 267.491px;
+    height: 56.892px;
+    font-size: 11.393px;
+    line-height: 15.97px;
+    position: relative;
+    margin: 0;
+    margin-left: 10px;
+    top: -63px;
+  }
+
+  .projects button {
+    width: 98.228px;
+    height: 24.557px;
+    font-size: 11.824px;
+    font-weight: 400;
+    border: 0;
+    position: relative;
+    left: 177px;
+    top: -65px;
+    transition: 0.2s;
+  }
+
+  .two .opis-projekta {
+    position: relative;
+    top: 195px;
+  }
+
+  .two .slika-projekta {
+    position: relative;
+    top: -216px;
+    left: -64px;
+  }
+
+  .two img {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 276.474px;
+    height: 179.948px;
+  }
+
+  footer {
+    width: 100%;
+    display: block;
+    height: 100.145px;
+    background-color: #6a8478;
+    color: #fff;
+    font-family: "Segoe UI";
+    font-size: 13.699px;
+    font-weight: 300;
+    margin-bottom: 0px;
+  }
+
+  footer > p {
+    margin: 0;
+    padding-left: 15px;
+  }
+
+  .email-podebljaj {
+    font-weight: 500;
+  }
+
+  .nav-overlay {
+    display: block;
+    width: 160px;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: #eeeee5;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.35);
+    z-index: 30;
+  }
+
+  .nav-mob {
+    padding: 10px;
+  }
+
+  .nav-mob-sve {
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+
+  .nav-mob a {
+    color: #000;
+    font-family: TharLon;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .WORK .opis {
+    position: relative;
+    top: -410px;
+    right: 0;
+    left: 0;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .WORK .text-portfolio-3 {
+    font-size: 123.53px;
+    top: 0px;
+    left: 285px;
+    position: absolute;
+  }
+
+  .WORK .text-portfolio-2 {
+    font-size: 123.53px;
+    top: 140px;
+    left: 330px;
+    position: absolute;
+    color: #eeeee5;
+  }
+
+  .WORK .text-portfolio-1 {
+    font-size: 123.53px;
+    top: 270px;
+    left: 390px;
+    position: absolute;
+    color: #f7f7f2;
+  }
+
+  .WORK .group {
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 55px;
+    left: 215px;
+    transform: rotate(-11.97deg);
+  }
+
+  .WORK .overlap-2 {
+    transform: scale(0.75);
+  }
+
+  .WORK .text-quote-4 {
+    position: relative;
+    top: 335px;
+    left: 0;
+    font-size: 58.985px;
+    padding-right: 20px;
+  }
+
+  .WORK .opis {
+    position: relative;
+    width: 318.578px;
+    top: -495px;
+    left: 290px;
+    font-size: 14.222px;
+    line-height: 19.2px;
+  }
+
+  .projects {
+    margin-top: 470px;
+  }
+
+  .project {
+    transform: scale(0.85);
+    margin-top: 30px;
+  }
+
+  .projects h2 {
+    left: 0;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+  .WORK .text-portfolio-3 {
+    font-size: 113.571px;
+    top: 0px;
+    left: 325px;
+    position: absolute;
+  }
+
+  .WORK .text-portfolio-2 {
+    font-size: 113.571px;
+    top: 125px;
+    left: 360px;
+    position: absolute;
+    color: #eeeee5;
+  }
+
+  .WORK .text-portfolio-1 {
+    font-size: 113.571px;
+    top: 250px;
+    left: 400px;
+    position: absolute;
+    color: #f7f7f2;
+  }
+
+  .WORK .group {
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 33px;
+    left: 228px;
+    transform: rotate(-11.97deg);
+  }
+
+  .WORK .overlap-2 {
+    transform: scale(0.68);
+  }
+
+  .WORK .text-quote-4 {
+    position: relative;
+    top: 310px;
+    left: 0;
+    font-size: 54.23px;
+    padding-right: 20px;
+  }
+
+  .WORK .opis {
+    position: relative;
+    width: 292.895px;
+    top: -510px;
+    left: 250px;
+    font-size: 13.076px;
+    line-height: 17.652px;
+  }
+
+  .projects {
+    margin-top: 450px;
+  }
+
+  .project {
+    transform: scale(0.76);
+    margin-top: 7px;
+  }
+
+  .projects h2 {
+    left: 0;
+    margin-left: -30px;
+  }
+  .WORK .nav {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .WORK .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 34px;
+    margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+    height: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .WORK .nav-lijevo {
+    color: #ad343e;
+    font-family: "TharLon-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    padding-top: 20px;
+  }
+  .WORK .desno {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-left: 0;
+    padding-top: 20px;
+  }
+
+  .WORK .nav-desno {
+    height: 32px;
+    font-family: "TharLon-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .WORK .text-portfolio-3 {
+    font-size: 96.914px;
+    top: 0px;
+    left: 390px;
+    position: absolute;
+  }
+
+  .WORK .text-portfolio-2 {
+    font-size: 96.914px;
+    top: 110px;
+    left: 420px;
+    position: absolute;
+    color: #eeeee5;
+  }
+
+  .WORK .text-portfolio-1 {
+    font-size: 96.914px;
+    top: 215px;
+    left: 450px;
+    position: absolute;
+    color: #f7f7f2;
+  }
+
+  .WORK .group {
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 5px;
+    left: 257px;
+    transform: rotate(-11.97deg);
+  }
+
+  .WORK .overlap-2 {
+    transform: scale(0.58);
+  }
+
+  .WORK .text-quote-4 {
+    position: relative;
+    top: 265px;
+    left: 0;
+    font-size: 46.276px;
+    padding-right: 20px;
+  }
+
+  .WORK .opis {
+    position: relative;
+    width: 249.937px;
+    top: -560px;
+    left: 215px;
+    font-size: 13.076px;
+    line-height: 17.652px;
+  }
+
+  .projects {
+    margin-top: 380px;
+    height: 3500px;
+  }
+
+  .project {
+    transform: scale(0.64);
+    margin-top: -50px;
+  }
+
+  .projects h2 {
+    left: 0;
+    margin-left: -160px;
+    transform: scale(0.7);
+    position: relative;
+    top: 0px;
+    margin-bottom: -70px;
+  }
+}
+
+@media (min-width: 570px) and (max-width: 768px) {
+  .WORK .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 34px;
+    margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+    height: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .WORK .nav-lijevo {
+    color: #ad343e;
+    font-family: "TharLon-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    padding-top: 20px;
+  }
+  .WORK .desno {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-left: 0;
+    padding-top: 20px;
+  }
+
+  .WORK .nav-desno {
+    height: 32px;
+    font-family: "TharLon-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .WORK .text-portfolio-3 {
+    font-size: 70px;
+    top: 0px;
+    left: 490px;
+    position: absolute;
+  }
+
+  .WORK .text-portfolio-2 {
+    font-size: 70px;
+    top: 80px;
+    left: 510px;
+    position: absolute;
+    color: #eeeee5;
+  }
+
+  .WORK .text-portfolio-1 {
+    font-size: 70px;
+    top: 155px;
+    left: 530px;
+    position: absolute;
+    color: #f7f7f2;
+  }
+
+  .WORK .group {
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: -48px;
+    left: 297px;
+    transform: rotate(-11.97deg);
+  }
+
+  .WORK .overlap-2 {
+    transform: scale(0.45);
+  }
+
+  .WORK .text-quote-4 {
+    position: relative;
+    top: 190px;
+    left: 0;
+    font-size: 34.35px;
+    padding-right: 20px;
+  }
+
+  .WORK .opis {
+    position: relative;
+    width: 190.5px;
+    top: -590px;
+    left: 160px;
+    font-size: 10.076px;
+    line-height: 15.652px;
+  }
+
+  .projects {
+    margin-top: 290px;
+    height: 3000px;
+  }
+
+  .project {
+    transform: scale(0.5);
+    margin-top: -120px;
+  }
+
+  .projects h2 {
+    left: 0;
+    margin-left: -180px;
+    transform: scale(0.5);
+    position: relative;
+    top: 0px;
+    margin-bottom: 20px;
+  }
+  footer {
+    height: 122px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    text-wrap: nowrap;
+  }
+
+  footer > p {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 570px) {
+  .nav-desno {
+    display: none;
+  }
+
+  .WORK .nav-lijevo {
+    font-size: 17.8px;
+  }
+
+  .WORK .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 34px;
+    margin-left: 0;
+    margin-right: auto;
+    gap: 40px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 30px;
+  }
+
+  .nav-desno-mobile {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 35px;
+    z-index: 40;
+  }
+
+  .WORK .text-portfolio-3 {
+    font-size: 55.32px;
+    top: 0px;
+    left: -65px;
+    position: absolute;
+  }
+
+  .WORK .text-portfolio-2 {
+    font-size: 55.32px;
+    top: 60px;
+    left: -40px;
+    position: absolute;
+    color: #eeeee5;
+  }
+
+  .WORK .text-portfolio-1 {
+    font-size: 55.32px;
+    top: 120px;
+    left: -10px;
+    position: absolute;
+    color: #f7f7f2;
+  }
+
+  .WORK .banner {
+    position: absolute;
+    width: 100%;
+    top: 55px;
+  }
+
+  .WORK .banner-group {
+    position: relative;
+    width: 100%;
+  }
+
+  .overlap-3,
+  .overlap-4,
+  .rectangle-4 {
+    display: none;
+  }
+
+  .WORK .group {
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 60px;
+    left: -90px;
+    transform: rotate(-11.97deg);
+  }
+
+  .WORK .overlap-2 {
+    position: relative;
+    width: 647px;
+    height: 174px;
+  }
+
+  .WORK .overlap-group-2 {
+    position: absolute;
+    width: 647px;
+    height: 174px;
+    top: 0;
+    left: 0;
+  }
+
+  .WORK .rectangle {
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 68.5px;
+    left: -3px;
+    background-color: #474747;
+  }
+
+  .WORK .text-wrapper-5 {
+    width: 179px;
+    top: 51px;
+    left: 127px;
+
+    font-family: "TharLon-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 7.864px;
+    line-height: normal;
+    position: absolute;
+    letter-spacing: 0;
+  }
+
+  .WORK .text-wrapper-6 {
+    position: absolute;
+    width: 179px;
+    top: 32px;
+    left: 38px;
+
+    font-family: "TharLon-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 7.864px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .WORK .text-wrapper-7 {
+    width: 179px;
+    top: 67px;
+    left: 205px;
+    font-family: "TharLon-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 7.864px;
+    line-height: normal;
+    position: absolute;
+    letter-spacing: 0;
+  }
+
+  .WORK .text-quote-4 {
+    position: relative;
+    top: 149px;
+    left: 0;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+
+  .WORK .opis {
+    position: absolute;
+    width: 270px;
+    top: 0px;
+    left: 0px;
+    font-size: 11.393px;
+    line-height: 16.276px;
+  }
+
+  .projects {
+    width: 100%;
+    background-color: #eeeee5;
+    margin: 0;
+    margin-top: 353px;
+    height: 4100px;
+  }
+
+  .projects h2 {
+    -webkit-text-stroke-width: 0.857px;
+    -webkit-text-stroke-color: #474747;
+    color: #eeeee5;
+    font-family: Anton, Helvetica;
+    font-size: 36.576px;
+    font-weight: 400;
+    letter-spacing: 1.097px;
+    position: relative;
+    left: -15px;
+    top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .project {
+    width: 286.455px;
+    height: 358.337px;
+    background-color: #ffffff;
+    justify-self: center;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .one img {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 276.474px;
+    height: 179.948px;
+  }
+
+  .naziv-projekta {
+    font-size: 42.425px;
+    font-style: normal;
+    letter-spacing: 2.121px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+
+  .smanji {
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
+
+  .vrsta-projekta {
+    color: #8daa9d;
+    font-family: Helvetica;
+    font-size: 12.213px;
+    font-weight: 700;
+    margin-left: 10px;
+    position: relative;
+    top: -42px;
+  }
+
+  .kratak-opis {
+    width: 267.491px;
+    height: 56.892px;
+    font-size: 11.393px;
+    line-height: 15.97px;
+    position: relative;
+    margin: 0;
+    margin-left: 10px;
+    top: -63px;
+  }
+
+  .projects button {
+    width: 98.228px;
+    height: 24.557px;
+    font-size: 11.824px;
+    font-weight: 400;
+    border: 0;
+    position: relative;
+    left: 177px;
+    top: -65px;
+    transition: 0.2s;
+  }
+
+  .two .opis-projekta {
+    position: relative;
+    top: 195px;
+  }
+
+  .two .slika-projekta {
+    position: relative;
+    top: -216px;
+    left: -64px;
+  }
+
+  .two img {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 276.474px;
+    height: 179.948px;
+  }
+
+  footer {
+    width: 100%;
+    display: block;
+    height: 100.145px;
+    background-color: #6a8478;
+    color: #fff;
+    font-family: "Segoe UI";
+    font-size: 13.699px;
+    font-weight: 300;
+    margin-bottom: 0px;
+  }
+
+  footer > p {
+    margin: 0;
+    padding-left: 15px;
+  }
+
+  .email-podebljaj {
+    font-weight: 500;
+  }
+
+  .nav-overlay {
+    display: block;
+    width: 160px;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: #eeeee5;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.35);
+    z-index: 30;
+  }
+
+  .nav-mob {
+    padding: 10px;
+  }
+
+  .nav-mob-sve {
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+
+  .nav-mob a {
+    color: #000;
+    font-family: TharLon;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .WORK .opis {
+    position: relative;
+    top: -410px;
+    right: 0;
+    left: 0;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+.hidden {
+  display: none;
+}
+
+@media (min-width: 1650px) and (max-width: 1890px) {
+  .banner {
+    transform: scale(1.16);
+    margin-top: 50px;
+  }
+
+  .projects {
+    margin-top: 770px;
+    height: 6000px;
+  }
+
+  .project {
+    transform: scale(1.3);
+    margin-top: 200px;
+  }
+
+  .projects h2 {
+    margin-bottom: -70px;
+  }
+}
+
+@media only screen and (min-width: 1890px) {
+  .banner {
+    transform: scale(1.26);
+    margin-top: 70px;
+  }
+
+  .projects {
+    margin-top: 790px;
+    height: 6000px;
+  }
+
+  .project {
+    transform: scale(1.3);
+    margin-top: 200px;
+  }
+
+  .projects h2 {
+    margin-bottom: -70px;
+  }
+}
