@@ -975,6 +975,8 @@ footer > p {
   .projects h2 {
     left: 0;
   }
+
+  body{overflow-x:hidden;}
 }
 
 @media (min-width: 900px) and (max-width: 1024px) {
